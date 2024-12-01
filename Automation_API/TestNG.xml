@@ -1,0 +1,11 @@
+<suite name="Suite1">
+    <listeners>
+<!--        <listener class-name = "io.qameta.allure.testng.AllureTestNg"/> -->
+    </listeners>
+
+    <test name="restAssured" preserve-order="true">
+        <classes>
+            <class name="Tests.MirrorTestCases"/>
+        </classes>
+    </test>
+</suite>

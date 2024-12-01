@@ -33,7 +33,6 @@ public class AddProductsToCart extends TestBase {
     }
     @When("Login with your account using {string} , {string}")
     public void login_with_your_account_using(String mobileNumber, String password) {
-        driver.findElement(By.xpath("//*[@id=\"blackFridayModal\"]/div/button[1]/img")).click();
         home.loginPage();
         login.enterUserName(mobileNumber);
         login.enterPassword(password);
